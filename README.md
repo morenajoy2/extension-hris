@@ -43,10 +43,12 @@ php artisan key:generate
 5. **Set Up Database**
 - Open .env and configure your DB settings:
 ```bash
+APP_NAME=HRIS
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=(your_db_name)
+DB_DATABASE=extension-hris
 DB_USERNAME=root
 DB_PASSWORD=
 ```
