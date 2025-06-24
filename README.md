@@ -55,7 +55,7 @@ DB_PASSWORD=
 
 - Run migrations with seeder:
 ```bash
-php artisan migrate --seed
+php artisan migrate:fresh --seed
 ```
 
 6. **Run the App**
